@@ -19,4 +19,6 @@
 
 
 #include "lectures/01-introducao.typ"
-#include "lectures/02-processos.typ"
+#include "lectures/02-tarefas.typ"
+
+#bibliography("bibliography.bib", full: true,style: "apa",title: "Referências Bibliográficas",)
