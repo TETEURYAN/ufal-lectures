@@ -26,6 +26,17 @@
 - `shared/` - arquivos Typst compartilhados e macros comuns.
 - `templates/` - modelos de exercício, revisão e teoria.
 
+## Current Course
+
+O arquivo `current-course` é um link para o conteúdo atual que está sendo desenvolvido. Com isso, para trocar para outro conteúdo basta digitar o seguinte comando:
+
+``` 
+ln -sfn /novo/diretorio current-course
+```
+
+## Templates
+Os templates foram inspirados no modelo encontrado em [Mousse Notes](https://github.com/dogeystamp/mousse-notes)
+
 ## Tópicos principais
 
 - Algoritmos
