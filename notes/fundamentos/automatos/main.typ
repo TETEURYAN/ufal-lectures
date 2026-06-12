@@ -18,5 +18,5 @@
 )
 
 
-// #include "lectures/01-introducao.typ"
+#include "lectures/01-introducao.typ"
 // #include "lectures/02-processos.typ"
