@@ -18,5 +18,11 @@
 )
 
 
-#include "lectures/01-introducao.typ"
-// #include "lectures/02-processos.typ"
+#include "lectures/01_introducao.typ"
+#include "lectures/02_conceitos_fundamentais.typ"
+#include "lectures/03_expressoes_regulares.typ"
+#include "lectures/04_automatos_finitos.typ"
+#include "lectures/05_relacao_er_automatos.typ"
+#include "lectures/06_exemplos_resolvidos.typ"
+#include "lectures/07_exercicios_propostos.typ"
+#include "lectures/08_conclusao.typ"
