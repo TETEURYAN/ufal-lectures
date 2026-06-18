@@ -29,3 +29,20 @@ Outra característica importante dos Sistemas Operacionais é o gerenciamento de
 
 Por exemplo, dois programas de computador podem solicitar acesso à CPU ao mesmo tempo. O Sistema Operacional gerencia essa situação, alocando a CPU para cada programa de forma justa e eficiente, garantindo que ambos possam ser executados sem interferência mútua.
 
+== Categorias de um Sistema Operacional
+
+Os Sistemas Operacionais podem ser classificados em diferentes categorias com base em suas características e funcionalidades. Algumas das categorias mais comuns incluem:
+
+- Batch de lote: Sistema que executa tarefas em sequência sem interação direta do usuário durante o processamento.
+
+- Desktop: Sistema operacional voltado para computadores pessoais, com interface gráfica e multitarefa.
+
+- Distribuído: Sistema que integra vários computadores para funcionarem como um único ambiente.
+
+- Tempo real: Sistema desenvolvido para responder eventos dentro de um tempo limite definido.
+
+- Móvel: Sistema operacional criado para dispositivos móveis como smartphones e tablets.
+
+- Embarcado: Sistema presente em dispositivos dedicados, executando funções específicas com poucos recursos.
+
+Cada categoria de Sistema Operacional é projetada para atender a necessidades específicas e pode ser utilizada em diferentes contextos, dependendo dos requisitos do sistema e das aplicações que serão executadas.
