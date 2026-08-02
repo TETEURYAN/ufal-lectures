@@ -1,0 +1,75 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(typst compile *)",
+      "Bash(typst --version)",
+      "Bash(command -v typst)",
+      "Bash(curl -sL -o typst.tar.xz *)",
+      "Bash(curl -sL * -o typst*.tar.xz)",
+      "Bash(tar -xf typst*.tar.xz)",
+      "Bash(tar xf typst*.tar.xz)",
+      "Bash(mkdir -p ~/.local/bin)",
+      "Bash(cp /tmp/typst-*/typst ~/.local/bin/typst)",
+      "Bash(chmod +x ~/.local/bin/typst)",
+      "Bash(~/.local/bin/typst *)",
+
+      "Bash(git status*)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git branch *)",
+      "Bash(git ls-tree *)",
+      "Bash(git ls-remote *)",
+      "Bash(git show *)",
+
+      "Bash(find notes *)",
+      "Bash(find shared *)",
+      "Bash(find templates *)",
+      "Bash(grep *)",
+      "Bash(sort *)",
+      "Bash(xargs *)",
+      "Bash(command -v *)",
+
+      "Bash(ln -sfn notes/*/* current-course)",
+
+      "Bash(python3 -c \"import pypdf\")",
+      "Bash(python3 -c \"import PyPDF2\")",
+      "Bash(python3 -c \"import fitz\")",
+      "Bash(python3 *)",
+
+      "Read(//home/mrysn/.cache/typst/**)",
+      "Read(//tmp/**)",
+      "Read(//usr/local/bin/**)",
+
+      "WebSearch",
+      "WebFetch(domain:cienciadacomputacao.wiki.br)",
+      "WebFetch(domain:*.usp.br)",
+      "WebFetch(domain:*.ufrgs.br)",
+      "WebFetch(domain:*.ifrn.edu.br)",
+      "WebFetch(domain:*.stanford.edu)",
+      "WebFetch(domain:commons.wikimedia.org)",
+      "WebFetch(domain:upload.wikimedia.org)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:vowi.fsinf.at)",
+      "WebFetch(domain:mrcet.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(curl -sL -o *.svg *)",
+      "Bash(curl -sL -o *.png *)",
+
+      "Bash(gh pr view *)",
+      "Bash(gh repo view *)"
+    ],
+    "ask": [
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(git rm *)",
+      "Bash(apt *)",
+      "Bash(apt-get *)",
+      "Bash(sudo *)",
+      "Bash(cargo install *)",
+      "Bash(pip install *)",
+      "Bash(pip3 install *)"
+    ]
+  }
+}
